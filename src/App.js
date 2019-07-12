@@ -71,7 +71,7 @@ class App extends React.Component{
 
   render() {
     return (
-      <div>
+      <div style= {{maxWidth : '100%', overflowX : "hidden"}}>
         <div style={{ backgroundImage: `url(${bg})`, height: "418px", boxShadow: "0 6px 12px rgba(0,0,0,.24), 0 6px 12px rgba(0,0,0,.4)" }}>
           <nav className="navbar row sticky-top" style={{ backgroundColor: "rgba(81, 51, 164, 1)", color: "white" }}>
             <span className="navbar-brand mb-0 h1 col-sm"><h3>Clicky Game!</h3></span>
